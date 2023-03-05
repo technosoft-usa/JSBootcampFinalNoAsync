@@ -1,5 +1,6 @@
 // make sure to check readme for information about taxes
 function addTotal(cart, state) {
+    // looks good. Nice use of switch statement.
     let tax = 1;
     switch (state) {
         case 'NY':
